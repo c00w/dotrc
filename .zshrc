@@ -39,7 +39,7 @@ _JAVA_AWT_WM_NONREPARENTING=1
 [ -s "/home/colin/.scm_breeze/scm_breeze.sh" ] && source "/home/colin/.scm_breeze/scm_breeze.sh"
 
 #Setup ssh key agent
-eval $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)
+[ -s "/usr/bin/keychaineval" ] && $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)
 
 #Home directory bin
 PATH=$PATH:~/bin
