@@ -19,8 +19,7 @@ alias cp='cp --reflink=auto'
 
 alias gds='git diff --stat'
 
-alias hydrogen='export GOPATH=$HOME/code/hydrogen'
-alias gopath='export GOPATH=$(pwd)'
+alias gg='cd $HOME/gowork/src/github.com/c00w'
 
 #Setup vim as editor
 export EDITOR=vim
@@ -39,7 +38,10 @@ _JAVA_AWT_WM_NONREPARENTING=1
 [ -s "/home/colin/.scm_breeze/scm_breeze.sh" ] && source "/home/colin/.scm_breeze/scm_breeze.sh"
 
 #Setup ssh key agent
-[ -s "/usr/bin/keychaineval" ] && $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)
+[ -s "/usr/bin/keychain" ] && $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_ed25519)
+
+#redshift
+[ -s "/usr/bin/redshift" ] && [ ! "$(pidof redshift)" ] && echo "redhift not running: redshift -l 40:-74"
 
 #Home directory bin
 PATH=$PATH:~/bin
