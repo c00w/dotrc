@@ -1,3 +1,5 @@
 [user]
 	email = colin@daedrum.net
 	name = Colin L. Rice
+[push]
+	default = simple
