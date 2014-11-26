@@ -9,7 +9,6 @@ set softtabstop=4 " inserted
 set expandtab
 set autoindent
 
-set cursorline
 set wildmenu
 set lazyredraw
 set showmatch
