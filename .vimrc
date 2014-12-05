@@ -6,6 +6,7 @@ filetype indent on
 
 set tabstop=4 " visual
 set softtabstop=4 " inserted
+set shiftwidth=4 "something else
 set expandtab
 set autoindent
 
