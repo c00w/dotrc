@@ -5,7 +5,7 @@ promptinit
 prompt adam1
 
 HISTFILE="$HOME/.history"
-HISTSIZE=20000
+HISTSIZE=200000
 SAVEHIST=$HISTSIZE
 
 setopt HIST_IGNORE_ALL_DUPS
@@ -39,11 +39,6 @@ _JAVA_AWT_WM_NONREPARENTING=1
 
 #Setup ssh key agent
 [ -s "/usr/bin/keychain" ] && $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_ed25519)
-
-#redshift
-[ -s "/usr/bin/redshift" ] && [ ! "$(pidof redshift)" ] && echo "redshift -l 40:-74"
-
-[ -s "/usr/bin/xautolock" ] && [ ! "$(pidof xautolock)" ] && echo "xautolock -time 15 -locker slock"
 
 #Home directory bin
 PATH=$PATH:~/bin

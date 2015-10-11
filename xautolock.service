@@ -1,0 +1,10 @@
+[Unit]
+Description=xautolock
+Type=simple
+
+[Service]
+ExecStart=/usr/bin/xautolock -time 15 -locker slock
+
+[Install]
+WantedBy=default.target
+

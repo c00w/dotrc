@@ -1,0 +1,10 @@
+[Unit]
+Description=redshift
+Type=simple
+
+[Service]
+ExecStart=/usr/bin/redshift -l 40:-74
+
+[Install]
+WantedBy=default.target
+

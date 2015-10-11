@@ -1,8 +1,11 @@
-.git.scmbrc
-.zshrc
 .xinitrc
 .bashrc
-.vimrc
 .config/htop/htoprc
 .config/xfce4/terminal/terminalrc
+.config/systemd/user/chromium.service
+.config/systemd/user/redshift.service
+.git.scmbrc
+.zshrc
+.vimrc
 .xmonad/xmonad.hs
+.config/systemd/user/xautolock.service
