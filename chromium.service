@@ -3,7 +3,7 @@ Description=chromium
 Type=simple
 
 [Service]
-ExecStart=/usr/bin/chromium
+ExecStart=/usr/bin/chromium --force-device-scale-factor=1.2
 
 [Install]
 WantedBy=default.target
