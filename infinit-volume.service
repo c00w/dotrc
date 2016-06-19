@@ -1,0 +1,10 @@
+[Unit]
+Description=infinit-volume
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/infinit-volume --mount --as colin --name clr-volume --mountpoint /home/colin/mnt-clr-volume/ --async --cache --publish
+
+[Install]
+WantedBy=default.target
+

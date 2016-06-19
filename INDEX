@@ -1,11 +1,12 @@
-.xinitrc
+.zshrc
+.config/systemd/user/xautolock.service
 .bashrc
-.config/htop/htoprc
 .config/xfce4/terminal/terminalrc
 .config/systemd/user/chromium.service
 .config/systemd/user/redshift.service
 .git.scmbrc
-.zshrc
+.xinitrc
+.config/htop/htoprc
 .vimrc
 .xmonad/xmonad.hs
-.config/systemd/user/xautolock.service
+.config/systemd/user/infinit-volume.service
