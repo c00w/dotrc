@@ -6,7 +6,7 @@ Plugin 'fatih/vim-go'
 call vundle#end()
 filetype plugin indent on
 
-colorscheme elflord
+colorscheme murphy
 syntax enable
 
 set tabstop=4 " visual
