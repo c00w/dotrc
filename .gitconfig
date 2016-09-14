@@ -3,3 +3,5 @@
 	name = Colin L. Rice
 [push]
 	default = simple
+[commit]
+	gpgsign = true
