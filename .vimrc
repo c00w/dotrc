@@ -1,10 +1,6 @@
 set nocompatible
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'fatih/vim-go'
-call vundle#end()
-filetype plugin indent on
+let g:go_fmt_command = "goimports"
 
 colorscheme murphy
 syntax enable
@@ -19,8 +15,3 @@ set wildmenu
 set lazyredraw
 set showmatch
 set incsearch
-
-
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-:au InsertLeave * match ExtraWhitespace /\s\+$/
